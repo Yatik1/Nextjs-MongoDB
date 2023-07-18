@@ -15,7 +15,7 @@ export async function connect(){
       }) 
 
     } catch (error) {
-        console.log('Something os wrong');
+        console.log('Something is wrong');
         console.log(error);
     }
 }
