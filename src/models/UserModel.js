@@ -35,6 +35,7 @@ const userSchema = new mongoose.Schema({
 })
 
 //In nextjs we have to follow following procedure as mongodb as intial configured data model so to avoid the clash between two or multiple different model we can use this syntactic procedure
+
 const User = mongoose.models.users || mongoose.model("users", userSchema);
 
 export default User;
